@@ -1,7 +1,7 @@
 from keras import load_model
 
 model = load_model(path) 
-a = 23
+a = 24
 def predict_image(image):
     image = np.array(image, dtype='float32')
     image /= 255
